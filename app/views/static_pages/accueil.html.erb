@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu May 24 2018 09:52:59 GMT+0000 (UTC)  -->
+<html data-wf-page="5ad29e220f7efd708ef27c28" data-wf-site="5ad29e220f7efd46f5f27c27">
+<%= render 'layouts/header' %>
+<body class="body">
+  <%= render 'layouts/navbar' %>
+  <div class="header">
+    <div data-duration-in="400" data-duration-out="400" data-easing="ease-in-cubic" class="header-tabs w-tabs">
+      <div class="header-tabs-content w-tab-content">
+        <div data-w-tab="Tab 1" class="header-tab-pane about-me w-tab-pane w--tab-active">
+          <div class="header-container w-container">
+            <h2 class="header-title heading">calvin triqueneaux</h2>
+            <h2 class="header-title">Bonjour, Que puis je pour vous?</h2>
+            <h2 class="header-title _2">Je suis web developer et designer.</h2></div>
+        </div>
+        <div data-w-tab="Tab 2" class="header-tab-pane work w-tab-pane">
+          <div class="header-container w-container">
+            <h2 class="header-title heading">mon travail</h2>
+            <h2 class="header-title">quelques petits projets.</h2>
+            <h2 class="header-title _2">Des jolis sites modernes jusqu&#x27;aux algorithmes de calculs complexes.<br>Retrouvez résumés de mes anciens projets !</h2><a href="#Section-work" class="button w-button">mes derniers projets</a></div>
+        </div>
+        <div data-w-tab="Tab 3" class="header-tab-pane contact w-tab-pane">
+          <div class="header-container w-container">
+            <h2 class="header-title heading">Contact</h2>
+            <h2 class="header-title">Vous avez un projet en tete?</h2>
+            <h2 class="header-title _2">N&#x27;hésitez pas a me contacter à l&#x27;aide du bouton ci dessous.</h2><a href="contact.html" class="button w-button">contactez moi</a></div>
+        </div>
+      </div>
+      <div class="header-tab-menu w-tab-menu"><a data-w-tab="Tab 1" class="header-tab-link w-inline-block w-tab-link w--current"><%= image_tag("user-2-48.png", class: "tab-icon") %><div class="tab-title">A propos de moi</div></a><a data-w-tab="Tab 2" class="header-tab-link w-inline-block w-tab-link"><%= image_tag("workstation-48.png", class: "tab-icon") %><div class="tab-title">Mon travail</div></a><a data-w-tab="Tab 3" class="header-tab-link w-inline-block w-tab-link"><%= image_tag("mail-48.png", class: "tab-icon") %><div class="tab-title">Contact</div></a></div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="w-container">
+      <div class="intro-row w-row">
+        <div class="intro-column w-col w-col-4">
+          <div class="intro-icon-wrapper heart"><%= image_tag("heart-128.png", class: "intro-icon", style: "opacity: 0", data: { "w-id" => "efef3b11-0e93-0edc-b5d0-d8a1fab20eb0" }) %></div>
+          <h3 class="heading-2">Design</h3>
+          <p class="paragraph">Créez un site moderne pour votre entreprise avec les dernières nouveautés en terme de design.</p>
+        </div>
+        <div class="intro-column w-col w-col-4">
+          <div class="intro-icon-wrapper perform"><%= image_tag("seo-performance-3-128.png", class: "intro-icon", style: "opacity: 0", data: { "w-id" => "d541dd08-4cd4-47c5-4cf3-296eb5a40810" }) %></div>
+          <h3 class="heading-2">Performance</h3>
+          <p class="paragraph">De nombreuse fonctionnalités seront disponible pour améliorer ses performances.<br>Votre site bénéficiera des meilleurs temps de chargement des pages ainsi que le meilleur référencement possible.</p>
+        </div>
+        <div class="intro-column w-col w-col-4">
+          <div class="intro-icon-wrapper serv"><%= image_tag("server-128.png", class: "intro-icon", style: "opacity: 0", data: { "w-id" => "e6d34e79-972a-aebb-8e96-041d192e0d21" }, width: "70", height: "70") %></div>
+          <h3 class="heading-2">Hébergement</h3>
+          <p class="paragraph">Bénéficiez d&#x27;hébergements de haute qualité pour des prix réduits.<br>Choisissez votre forfait en fonction de vos attentes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="Section-work" class="page-content work">
+    <div class="w-container">
+      <div class="section-work-block">
+        <h3 class="section-title _2">derniers projets</h3>
+        <h3 class="section-title">mon travail</h3>
+      </div>
+      <div class="work-row w-row">
+        <div class="work-column w-col w-col-4">
+          <div data-w-id="833b040c-94e4-f519-bb66-4e7a7f9a8bab" style="opacity:0" class="work-block"><a href="#" class="overall-lightbox w-inline-block w-lightbox"><%= image_set_tag 'contact.png', { 
+		 'contact-p-500.png'  => '500w', 
+     'contact-p-800.png' => '800w'
+   }, sizes: '(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 229.328125px, 299.984375px', class: 'work-thumb' %><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ad53ff81ca0c542bcbe6134",
+      "fileName": "2018-04-17.png",
+      "origFileName": "2018-04-17.png",
+      "width": 1920,
+      "height": 1080,
+      "fileSize": 1765712,
+      "url": "images/2018-04-17.png"
+    }
+  ],
+  "group": "Latest Work"
+}</script></a>
+            <div class="work-block-text-container">
+              <h1 class="work-title _2">Design / Features</h1>
+              <h1 class="work-title">Contact</h1>
+              <div class="divider-small"></div>
+              <p class="paragraph-2">Restez en contact avec vos clients de manière efficace grâce aux nombreuses fonctionnalités liés à votre newsletter.<br>Utilisez un plan pour permettre à vos clients de trouver facilement votre société.</p>
+            </div>
+          </div>
+          <div data-w-id="eb2fb0ec-2dbe-77e9-7888-b157f2f3e6fe" style="opacity:0" class="work-block"><a href="#" class="overall-lightbox w-inline-block w-lightbox"><%= image_set_tag 'questions.png', { 
+		 'questions-p-500.png'  => '500w', 
+     'questions.png' => '968w'
+   }, sizes: '(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 229.328125px, 299.984375px', class: 'work-thumb' %><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ad53ff81ca0c542bcbe6134",
+      "fileName": "2018-04-17.png",
+      "origFileName": "2018-04-17.png",
+      "width": 1920,
+      "height": 1080,
+      "fileSize": 1765712,
+      "url": "images/2018-04-17.png"
+    }
+  ],
+  "group": "Latest Work"
+}</script></a>
+            <div class="work-block-text-container">
+              <h1 class="work-title _2">Design</h1>
+              <h1 class="work-title">Thèmes</h1>
+              <div class="divider-small"></div>
+              <p class="paragraph-2">Définissez les couleurs principales de votre société pour créer un site à l&#x27;image de votre entreprise.<br>Choisissez les différentes pages souhaitées ainsi que leur esthétique globale.</p>
+            </div>
+          </div>
+        </div>
+        <div class="work-column w-col w-col-4">
+          <div data-w-id="580148ae-a5fd-eadd-e0bd-9e33a8c20993" style="opacity:0" class="work-block"><a href="#" class="overall-lightbox w-inline-block w-lightbox"><%= image_set_tag 'formulaire2.png', { 
+		 'formulaire2-p-500.png'  => '500w', 
+     'formulaire2.png' => '733w'
+   }, sizes: '(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 229.328125px, 299.984375px', class: 'work-thumb' %><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ad53ff6559bed2c0649fbc2",
+      "fileName": "2018-04-17 (3).png",
+      "origFileName": "2018-04-17 (3).png",
+      "width": 1920,
+      "height": 1080,
+      "fileSize": 651541,
+      "url": "images/2018-04-17-3.png"
+    }
+  ],
+  "group": "Latest Work"
+}</script></a>
+            <div class="work-block-text-container">
+              <h1 class="work-title _2">Design</h1>
+              <h1 class="work-title">Inscription</h1>
+              <div class="divider-small"></div>
+              <p class="paragraph-2">Choisissez parmis de nombreux formulaires d&#x27;inscriptions tous plus originaux les uns que les autres.</p>
+            </div>
+          </div>
+          <div data-w-id="f1cbf042-67b6-42b4-0f6f-d33ac81fb6dd" style="opacity:0" class="work-block"><a href="#" class="overall-lightbox w-inline-block w-lightbox"><%= image_set_tag 'bracket.png', { 
+		 'bracket-p-500.png'  => '500w', 
+		 'bracket-p-800.png'  => '800w', 
+		 'bracket.png'  => '986w', 
+   }, sizes: '(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 229.328125px, 299.984375px', class: 'work-thumb' %><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ad53ff6559bed2c0649fbc2",
+      "fileName": "2018-04-17 (3).png",
+      "origFileName": "2018-04-17 (3).png",
+      "width": 1920,
+      "height": 1080,
+      "fileSize": 651541,
+      "url": "images/2018-04-17-3.png"
+    }
+  ],
+  "group": "Latest Work"
+}</script></a>
+            <div class="work-block-text-container">
+              <h1 class="work-title _2">Features</h1>
+              <h1 class="work-title">Tout est possible</h1>
+              <div class="divider-small"></div>
+              <p class="paragraph-2">De la génération d&#x27;arbres de tournois aux algorithmes de calcul de trajectoire d&#x27;un solide, je ne refuse aucun nouveau défi.<br>Par conséquent n&#x27;hésitez pas à me solliciter pour toute sorte de projets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="work-column w-col w-col-4">
+          <div data-w-id="e11aced1-6d75-5bf4-14bb-9a37d92bc3a0" style="opacity:0" class="work-block"><a href="#" class="overall-lightbox w-inline-block w-lightbox"><%= image_tag("calendar.png", class: "work-thumb") %><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ad53ff6559bed2c0649fbc2",
+      "fileName": "2018-04-17 (3).png",
+      "origFileName": "2018-04-17 (3).png",
+      "width": 1920,
+      "height": 1080,
+      "fileSize": 651541,
+      "url": "images/2018-04-17-3.png"
+    }
+  ],
+  "group": "Latest Work"
+}</script></a>
+            <div class="work-block-text-container">
+              <h1 class="work-title _2">Interface / Features</h1>
+              <h1 class="work-title">Réservations</h1>
+              <div class="divider-small"></div>
+              <p class="paragraph-2">Gérez facilement les réservations de vos clients en temps réel et permettez à ceux ci d&#x27;utiliser une interface simple et efficace.</p>
+            </div>
+          </div>
+          <div data-w-id="28992bd4-49f0-77e2-d26b-44470f2baa39" style="opacity:0" class="work-block"><a href="#" class="overall-lightbox w-inline-block w-lightbox"><%= image_set_tag 'wtf.png', { 
+		 'wtf-p-500.png'  => '500w', 
+		 'wtf-p-800.png'  => '800w', 
+		 'wtf.png'  => '1096w', 
+   }, sizes: '(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 229.328125px, 299.984375px', class: 'work-thumb' %><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5ad53ff6559bed2c0649fbc2",
+      "fileName": "2018-04-17 (3).png",
+      "origFileName": "2018-04-17 (3).png",
+      "width": 1920,
+      "height": 1080,
+      "fileSize": 651541,
+      "url": "images/2018-04-17-3.png"
+    }
+  ],
+  "group": "Latest Work"
+}</script></a>
+            <div class="work-block-text-container">
+              <h1 class="work-title _2">Design / Features</h1>
+              <h1 class="work-title">Toujours plus</h1>
+              <div class="divider-small"></div>
+              <p class="paragraph-2">Découvrez encore de nombreuses fonctionnalités disponibles par vous même !<br>&quot;Passer à l’action efface la peur. Qui ose gagne.&quot; - Winston Churchill</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cta-stripe">
+    <div class="w-container">
+      <h2 class="header-title">Vous avez un projet en tête?</h2>
+      <h2 class="header-title _2">Discutons de vos idées, je suis disponible pour travailler !</h2><a href="contact.html" class="button">Contactez moi</a></div>
+  <%= render 'layouts/footer' %>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
