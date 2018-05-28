@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'sqlite3'
 gem 'mail_form'
 gem "paperclip", "~> 6.0.0"
 gem 'country_select'
