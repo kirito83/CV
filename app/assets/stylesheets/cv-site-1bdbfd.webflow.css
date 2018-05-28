@@ -694,10 +694,10 @@
 }
 
 .field-label {
-  display: inline-block;
+  display: block;
+  text-align: center;
   margin-bottom: 20px;
   padding-bottom: 5px;
-  border-bottom: 2px solid #333;
   font-family: Raleway, sans-serif;
   font-size: 25px;
   font-weight: 800;

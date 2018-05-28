@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'sqlite3'
+gem 'mail_form'
 gem "paperclip", "~> 6.0.0"
 gem 'country_select'
 gem 'aws-sdk'
 gem 'stripe'
-gem 'mailjet'
 gem 'devise'
 gem 'figaro'
 gem 'rails',        '5.1.2'
