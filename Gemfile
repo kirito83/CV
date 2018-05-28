@@ -20,6 +20,7 @@ gem 'autoprefixer-rails'
 gem 'omniauth-facebook'
 
 group :development, :test do
+	gem 'sqlite3'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
