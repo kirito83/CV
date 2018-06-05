@@ -4,7 +4,13 @@
 <html data-wf-page="5ad628a5c5831df1c70f8588" data-wf-site="5ad29e220f7efd46f5f27c27">
 <%= render 'layouts/header' %>
 <body class="body">
-  <%= render 'layouts/navbar' %>
+  <div data-animation="over-left" class="navbar w-nav" data-easing2="ease-out" data-easing="ease-out" data-collapse="all" data-no-scroll="1" data-duration="300" data-doc-height="1">
+    <nav role="navigation" class="nav-menu-container w-nav-menu"><a href="#" class="close-menu">← Retour</a><a href="accueil.html" class="nav-link w-nav-link" onclick="window.location.href = 'https://calvin-triqueneaux.herokuapp.com/'" >accueil</a><a href="contact" class="nav-link w-nav-link w--current" onclick="window.location.href = 'https://calvin-triqueneaux.herokuapp.com/contact'">Contact</a><a href="bio.html" class="nav-link w-nav-link" onclick="window.location.href = 'https://calvin-triqueneaux.herokuapp.com/bio'">a propos</a></nav>
+    <div class="fake-menu-bar"></div>
+    <div class="menu-button w-nav-button">
+      <div class="menu-icon w-icon-nav-menu"></div>
+    </div>
+  </div>
   <div class="subpage-header">
     <div class="w-container">
       <h2 data-w-id="355ad66c-12de-0b1a-a900-e14652ae3cde" style="opacity:0;-webkit-transform:translateX(0) translateY(-10PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-moz-transform:translateX(0) translateY(-10PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-ms-transform:translateX(0) translateY(-10PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);transform:translateX(0) translateY(-10PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0)" class="header-title">Vous avez des questions?</h2>
@@ -15,7 +21,7 @@
     <div class="w-container">
       <div class="w-form">
         <form id="email-form" name="email-form" data-name="Email Form" class="contact-form">
-          <label for="name" data-w-id="b13e1b18-e3e4-dc3a-7e08-b2c1be9a8ae3" style="display:block; opacity:0; text-align:center; text-decoration:none" class="field-label">Nom :</label>
+          <label for="name" data-w-id="b13e1b18-e3e4-dc3a-7e08-b2c1be9a8ae3" style="opacity:0; text-align:center; text-decoration:none" class="field-label">Nom :</label>
           <input type="text" class="field w-input" maxlength="256" name="name" data-name="Name" style="opacity:0" placeholder="Entrez votre nom..." data-w-id="50230894-fe78-0bc5-f473-b083bba31c9c" id="name" required="">
           <label for="email" data-w-id="b97d8d24-4c02-007d-bd67-083b1a38143a" style="opacity:0" class="field-label">Email :</label>
           <input type="email" class="field w-input" maxlength="256" name="email" data-name="Email" style="opacity:0" placeholder="Entrez votre adresse email..." data-w-id="693528e5-90d3-e2f3-a80a-366459ba5e30" id="email" required="">

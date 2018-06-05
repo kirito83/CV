@@ -4,7 +4,13 @@
 <html data-wf-page="5ad29e220f7efd708ef27c28" data-wf-site="5ad29e220f7efd46f5f27c27">
 <%= render 'layouts/header' %>
 <body class="body">
-  <%= render 'layouts/navbar' %>
+  <div data-animation="over-left" class="navbar w-nav" data-easing2="ease-out" data-easing="ease-out" data-collapse="all" data-no-scroll="1" data-duration="300" data-doc-height="1">
+    <nav role="navigation" class="nav-menu-container w-nav-menu"><a href="#" class="close-menu">← Retour</a><a href="accueil.html" class="nav-link w-nav-link w--current" onclick="window.location.href = 'https://calvin-triqueneaux.herokuapp.com/'" >accueil</a><a href="contact" class="nav-link w-nav-link" onclick="window.location.href = 'https://calvin-triqueneaux.herokuapp.com/contact'">Contact</a><a href="bio.html" class="nav-link w-nav-link" onclick="window.location.href = 'https://calvin-triqueneaux.herokuapp.com/bio'">a propos</a></nav>
+    <div class="fake-menu-bar"></div>
+    <div class="menu-button w-nav-button">
+      <div class="menu-icon w-icon-nav-menu"></div>
+    </div>
+  </div>
   <div class="header">
     <div data-duration-in="400" data-duration-out="400" data-easing="ease-in-cubic" class="header-tabs w-tabs">
       <div class="header-tabs-content w-tab-content">
@@ -56,9 +62,9 @@
         </div>
         <div id="Section-work" class="page-content work">
           <div class="w-container">
-            <div class="section-work-block">
-              <h3 class="section-title _2">anciens projets</h3>
-              <h3 class="section-title">mon travail</h3>
+            <div class="section-work-block" style="text-align: center;">
+              <h3 class="section-title _2" style="text-align: center;">anciens projets</h3>
+              <h3 class="section-title" style="text-align: center;">mon travail</h3>
             </div>
             <div class="work-row w-row">
               <div class="work-column w-col w-col-4">
